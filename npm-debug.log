@@ -1,0 +1,125 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/opt/local/bin/node',
+1 verbose cli   '/opt/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'underscore',
+1 verbose cli   '-g' ]
+2 info using npm@1.2.14
+3 info using node@v0.8.22
+4 verbose read json /opt/local/lib/package.json
+5 verbose read json /opt/local/lib/package.json
+6 verbose cache add [ 'underscore', null ]
+7 verbose cache add name=undefined spec="underscore" args=["underscore",null]
+8 verbose parsed url { pathname: 'underscore',
+8 verbose parsed url   path: 'underscore',
+8 verbose parsed url   href: 'underscore' }
+9 silly lockFile 64bc6893-underscore underscore
+10 verbose lock underscore /Users/appacademy/.npm/64bc6893-underscore.lock
+11 silly lockFile 64bc6893-underscore underscore
+12 silly lockFile 64bc6893-underscore underscore
+13 verbose addNamed [ 'underscore', '' ]
+14 verbose addNamed [ null, '' ]
+15 silly lockFile 7629b758-underscore underscore@
+16 verbose lock underscore@ /Users/appacademy/.npm/7629b758-underscore.lock
+17 silly addNameRange { name: 'underscore', range: '', hasData: false }
+18 verbose registry.get underscore not expired, no request
+19 silly addNameRange number 2 { name: 'underscore', range: '', hasData: true }
+20 silly addNameRange versions [ 'underscore',
+20 silly addNameRange   [ '1.0.3',
+20 silly addNameRange     '1.0.4',
+20 silly addNameRange     '1.1.0',
+20 silly addNameRange     '1.1.1',
+20 silly addNameRange     '1.1.2',
+20 silly addNameRange     '1.1.3',
+20 silly addNameRange     '1.1.4',
+20 silly addNameRange     '1.1.5',
+20 silly addNameRange     '1.1.6',
+20 silly addNameRange     '1.1.7',
+20 silly addNameRange     '1.2.0',
+20 silly addNameRange     '1.2.1',
+20 silly addNameRange     '1.2.2',
+20 silly addNameRange     '1.2.3',
+20 silly addNameRange     '1.2.4',
+20 silly addNameRange     '1.3.0',
+20 silly addNameRange     '1.3.1',
+20 silly addNameRange     '1.3.2',
+20 silly addNameRange     '1.3.3',
+20 silly addNameRange     '1.4.0',
+20 silly addNameRange     '1.4.1',
+20 silly addNameRange     '1.4.2',
+20 silly addNameRange     '1.4.3',
+20 silly addNameRange     '1.4.4',
+20 silly addNameRange     '1.5.0',
+20 silly addNameRange     '1.5.1',
+20 silly addNameRange     '1.5.2',
+20 silly addNameRange     '1.6.0' ] ]
+21 verbose addNamed [ 'underscore', '1.6.0' ]
+22 verbose addNamed [ '1.6.0', '1.6.0' ]
+23 silly lockFile 96960ed1-underscore-1-6-0 underscore@1.6.0
+24 verbose lock underscore@1.6.0 /Users/appacademy/.npm/96960ed1-underscore-1-6-0.lock
+25 verbose read json /Users/appacademy/.npm/underscore/1.6.0/package/package.json
+26 silly lockFile 96960ed1-underscore-1-6-0 underscore@1.6.0
+27 silly lockFile 96960ed1-underscore-1-6-0 underscore@1.6.0
+28 silly lockFile 7629b758-underscore underscore@
+29 silly lockFile 7629b758-underscore underscore@
+30 silly resolved [ { name: 'underscore',
+30 silly resolved     description: 'JavaScript\'s functional programming helper library.',
+30 silly resolved     homepage: 'http://underscorejs.org',
+30 silly resolved     keywords: [ 'util', 'functional', 'server', 'client', 'browser' ],
+30 silly resolved     author: { name: 'Jeremy Ashkenas', email: 'jeremy@documentcloud.org' },
+30 silly resolved     repository:
+30 silly resolved      { type: 'git',
+30 silly resolved        url: 'git://github.com/jashkenas/underscore.git' },
+30 silly resolved     main: 'underscore.js',
+30 silly resolved     version: '1.6.0',
+30 silly resolved     devDependencies: { docco: '0.6.x', phantomjs: '1.9.0-1', 'uglify-js': '2.4.x' },
+30 silly resolved     scripts:
+30 silly resolved      { test: 'phantomjs test/vendor/runner.js test/index.html?noglobals=true',
+30 silly resolved        build: 'uglifyjs underscore.js -c "evaluate=false" --comments "/    .*/" -m --source-map underscore-min.map -o underscore-min.js',
+30 silly resolved        doc: 'docco underscore.js' },
+30 silly resolved     licenses: [ [Object] ],
+30 silly resolved     files: [ 'underscore.js', 'underscore-min.js', 'LICENSE' ],
+30 silly resolved     readme: '                       __\n                      /\\ \\                                                         __\n     __  __    ___    \\_\\ \\     __   _ __   ____    ___    ___   _ __    __       /\\_\\    ____\n    /\\ \\/\\ \\ /\' _ `\\  /\'_  \\  /\'__`\\/\\  __\\/ ,__\\  / ___\\ / __`\\/\\  __\\/\'__`\\     \\/\\ \\  /\',__\\\n    \\ \\ \\_\\ \\/\\ \\/\\ \\/\\ \\ \\ \\/\\  __/\\ \\ \\//\\__, `\\/\\ \\__//\\ \\ \\ \\ \\ \\//\\  __/  __  \\ \\ \\/\\__, `\\\n     \\ \\____/\\ \\_\\ \\_\\ \\___,_\\ \\____\\\\ \\_\\\\/\\____/\\ \\____\\ \\____/\\ \\_\\\\ \\____\\/\\_\\ _\\ \\ \\/\\____/\n      \\/___/  \\/_/\\/_/\\/__,_ /\\/____/ \\/_/ \\/___/  \\/____/\\/___/  \\/_/ \\/____/\\/_//\\ \\_\\ \\/___/\n                                                                                  \\ \\____/\n                                                                                   \\/___/\n\nUnderscore.js is a utility-belt library for JavaScript that provides\nsupport for the usual functional suspects (each, map, reduce, filter...)\nwithout extending any core JavaScript objects.\n\nFor Docs, License, Tests, and pre-packed downloads, see:\nhttp://underscorejs.org\n\nUnderscore is an open-sourced component of DocumentCloud:\nhttps://github.com/documentcloud\n\nMany thanks to our contributors:\nhttps://github.com/jashkenas/underscore/contributors\n',
+30 silly resolved     readmeFilename: 'README.md',
+30 silly resolved     _id: 'underscore@1.6.0',
+30 silly resolved     _from: 'underscore@' } ]
+31 info install underscore@1.6.0 into /opt/local/lib
+32 info installOne underscore@1.6.0
+33 verbose from cache /Users/appacademy/.npm/underscore/1.6.0/package/package.json
+34 info /opt/local/lib/node_modules/underscore unbuild
+35 verbose read json /opt/local/lib/node_modules/underscore/package.json
+36 verbose tar unpack /Users/appacademy/.npm/underscore/1.6.0/package.tgz
+37 silly lockFile 247fe14b-ocal-lib-node-modules-underscore /opt/local/lib/node_modules/underscore
+38 verbose lock /opt/local/lib/node_modules/underscore /Users/appacademy/.npm/247fe14b-ocal-lib-node-modules-underscore.lock
+39 silly lockFile ffdcc22f-npm-underscore-1-6-0-package-tgz /Users/appacademy/.npm/underscore/1.6.0/package.tgz
+40 verbose lock /Users/appacademy/.npm/underscore/1.6.0/package.tgz /Users/appacademy/.npm/ffdcc22f-npm-underscore-1-6-0-package-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 error Error: EACCES, mkdir '/opt/local/lib/node_modules/underscore'
+42 error  { [Error: EACCES, mkdir '/opt/local/lib/node_modules/underscore']
+42 error   errno: 3,
+42 error   code: 'EACCES',
+42 error   path: '/opt/local/lib/node_modules/underscore',
+42 error   fstream_type: 'Directory',
+42 error   fstream_path: '/opt/local/lib/node_modules/underscore',
+42 error   fstream_class: 'DirWriter',
+42 error   fstream_stack:
+42 error    [ 'DirWriter._create (/opt/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23)',
+42 error      '/opt/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53',
+42 error      'Object.oncomplete (fs.js:297:15)' ] }
+43 error Please try running this command again as root/Administrator.
+44 error System Darwin 12.2.1
+45 error command "/opt/local/bin/node" "/opt/local/bin/npm" "install" "underscore" "-g"
+46 error cwd /Users/appacademy/Desktop/w6d1
+47 error node -v v0.8.22
+48 error npm -v 1.2.14
+49 error path /opt/local/lib/node_modules/underscore
+50 error fstream_path /opt/local/lib/node_modules/underscore
+51 error fstream_type Directory
+52 error fstream_class DirWriter
+53 error code EACCES
+54 error errno 3
+55 error stack Error: EACCES, mkdir '/opt/local/lib/node_modules/underscore'
+56 error fstream_stack DirWriter._create (/opt/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23)
+56 error fstream_stack /opt/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
+56 error fstream_stack Object.oncomplete (fs.js:297:15)
+57 verbose exit [ 3, true ]
